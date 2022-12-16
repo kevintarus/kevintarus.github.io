@@ -1,6 +1,5 @@
-## Personal Blog.
+Personal Website
 
-Visit :: https://kevintarus.github.io
+Visit : https://kevintarus.github.io
 	
 	
-
