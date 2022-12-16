@@ -22,35 +22,36 @@ timezone: Africa/Nairobi
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: w33vil's blog                          # the main title
+title: Tarus's blog                          # the main title
 
-tagline: Pentester   # it will display as the sub-title
+tagline: Cyber Security Enthusiast   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Brian Ombongi's Personal space.
+  Kevin Tarus's Personal space.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://w33vils.github.io'
+url: 'https://kevintarus.github.io'
 
 github:
-  username: w33vils             # change to your github username
+  username: kevintarus             # change to your github username
 
 twitter:
-  username: w33vils            # change to your twitter username
+  username: kevintarus            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Brian Ombongi
-  email: uv.w@outlook.com             # change to your email address
+  name: Kevin Tarus
+  email: kevinkimutaitarus@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/w33vils      # change to your twitter homepage
-    - https://github.com/w33vils 
+    - https://twitter.com/iamtarus      # change to your twitter homepage
+    - https://github.com/kevintarus 
+    - https://www.linkedin.com/in/kevintarus/
     # - https://www.linkedin.com/in/brian-ombongi     # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
