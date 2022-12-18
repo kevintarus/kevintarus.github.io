@@ -11,21 +11,17 @@ toc: True
 
 ## Skills
 
-- Cloud Security 
-- Python scripting
-- Web application security testing.
+- Python 
+- Linux
+- Network Configurations
 
 ## Certifications
-
-- Certified Ethical Hacker (CEH)
-
-- AWS Cloud Practitioner
 
 - CCNA Routing and Switching
 
 - Cisco: Hardware and Software Essentials
 
-- Azure AZ-900
+
 
 
 
