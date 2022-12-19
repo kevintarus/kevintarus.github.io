@@ -9,7 +9,7 @@
 _site
 vendor
 Gemfile.lock
-
+other
 # rubygem
 *.gem
 
