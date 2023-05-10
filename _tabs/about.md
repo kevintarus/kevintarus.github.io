@@ -6,13 +6,13 @@ layout: post
 toc: True
 ---
 
-`A student currently in Strathmore University who is passionate about Cyber Security, Networks, and Cloud Computing`.
+`I am currently interested in Cyber Security, Networks, Cloud Computing and Game Development`.
 
 
 ## Skills
 
-- Python 
 - Linux
+- System Administration
 - Network Configurations
 
 ## Certifications
