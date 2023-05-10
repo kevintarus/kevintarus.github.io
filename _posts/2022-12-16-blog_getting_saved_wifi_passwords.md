@@ -3,7 +3,7 @@ title: Getting saved WiFi SSID's and Passwords
 author: Tarus
 date: 2022-12-16 12:27:00 +0300
 categories: [Blog, Scripts]
-tags: [python, windows, command prompt, script]
+tags: [python, windows, command prompt, script, SSID]
 ---
 
 ## Explanation
