@@ -20,7 +20,7 @@ tags: [WPA2, wifi, mac address, kali linux, airmon-ng]
 ## Hacking Process
 ![Hacking Process](/assets/wpa2.png)
 
-```linux commands
+```plaintext
 iwconfig                        #check the wireless network configurations, check if usb wireless card is working
 airmon-ng check kill            #kill processes that may interfere with what we are about to do
 airmon-ng start wlan0           #allows wireless card to monitor incoming traffic, where "wlan0" is name of your wireless card
