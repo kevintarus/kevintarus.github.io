@@ -25,7 +25,7 @@ image.png
 
 ## Code
 
-```python
+```plaintext
 iwconfig                        #wlan0 ifconfig but wireless, check if usb card is working
 airmon-ng check kill            #kill processes that may interfere with what we are about to do
 airmon-ng start wlan0           #allows wireless card to monitor incoming traffic
