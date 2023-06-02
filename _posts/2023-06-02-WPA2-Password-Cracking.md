@@ -51,4 +51,4 @@ wireshark capture.cap              #monitor captured traffic in wireshark, searc
 aircrack-ng capture.cap -w /usr/share/wordlists/rockyou.txt             #using a popolar wordlist with over 1 million entries
 ```
 
-This attack will only work when the network uses **WEAK PASSWORDS**
+This attack will only work when the WPA2-PSK network uses **WEAK PASSWORDS**
