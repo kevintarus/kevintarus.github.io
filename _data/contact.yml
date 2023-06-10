@@ -6,10 +6,10 @@
 -
   type: twitter
   icon: 'fab fa-twitter'
--
-  type: instagram
-  icon: 'fab fa-instagram'
-  url: 'https://www.instagram.com/iamtarus'  
+#-
+ # type: instagram
+ # icon: 'fab fa-instagram'
+  #url: 'https://www.instagram.com/iamtarus'  
 -
   type: email
   icon: 'fas fa-envelope'

@@ -6,20 +6,20 @@ layout: post
 toc: True
 ---
 
-`I am currently interested in Cyber Security and specializing in Penetration Testing`.
+`I am currently enthusiastic about Cyber Security and Cloud Computing`.
 
 
 ## Skills
 
-- Penetration Testing
+- Ethical Hacking
 - Linux
 - System Administration
+- Computer Networking
 
-## Certifications currently doing
-- Certified in CyberSecurity
+## Certifications
+- Certified in Cybersecurity
 - Microsoft Azure Security Technologies (AZ-500)
-- AWS Cloud Practitioner
-- Microsoft Azure FUndamentals (AZ-900)
+- Microsoft Azure Fundamentals (AZ-900)
 
 
 
