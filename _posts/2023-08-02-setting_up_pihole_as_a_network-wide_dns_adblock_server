@@ -1,0 +1,74 @@
+---
+title: Setting up your own Network-Wide Adblocking Recursive DNS Server using Pihole
+author: Tarus
+date: 2023-08-02 19:57:00 +0300
+categories: [Tutorials]
+tags: [pihole, adblocking, linux, unbound, dns]
+---
+
+## What is Pihole
+Pihole is a forwarding DNS Server that you can host yourself that blocks network-wide ads when you attempt to visit web pages and open applications.
+
+## Explanation
+If you type in the website kevintarus.com, since pihole doesn't know the ip address of the website, it will forward that request onto the next dns server you have configured for example, Google's DNS(8.8.8.8), Cloudflare DNS (1.1.1.1) and OpenDNS. That dns server will forward the ip address of kevintarus.com through pihole and into your web browser. When those requests get to pihole, it will check the adblock list and filter out some know ad-serving requests then sends the final webpage to the user.
+
+In this, we will do some tweaking and set it up as a recursive dns server by using unbound. When you ask pihole where is kevintarus.com and if it doesn't know the answer, it will seek out the authoritative dns server of kevintarus.com and get the answer directly from them rather than using a third party DNS like google. 
+
+On the very first request to a wesite, it will take longer than usual but later it will cache the website info for future use so that its much faster the next time you load the same website.
+
+## Benefits
+- Third party DNS servers will no longer be able to compile a list of your internet browsing history based off the webistes you visit
+- You will be safer from dns spoofing such as a fake website mimicking legitimate websites
+- You can whitelist and blacklist websites
+- Be able to monitor and analyse your own network traffic 
+
+## Tools I Used
+A Virtual Machine (Ubuntu Server 22.04)
+
+- I recommend using a Rasberry Pi since the DNS server needs to always be on and keeping a virtual machine on for long isn't advisable unless its an old laptop you ain't using.
+
+## Steps I Did
+1. Download and set up Ubuntu Server 22.04 (use bridged adapter)
+
+![Alt text](image-3.png)
+
+2. Install Pihole from terminal: sudo curl -sSL https://install.pi-hole.net | bash
+
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)
+
+![Alt text](image-6.png)
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+![Alt text](image-9.png)
+
+3. Set the Web Admin Password - pihole -a -p "input your password here"
+   Go to your browser and type: http://192.168.1.1/admin/login.php  (replace it with your ip address for the vm)
+
+![Alt text](image-10.png)
+
+4. Install Unbound DNS - sudo apt install unbound
+
+5. Create Unbound Configuration File - sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
+
+6. Copy the config code from here: https://docs.pi-hole.net/guides/dns/unbound/ and paste it in /etc/unbound/unbound.conf.d/pi-hole.conf 
+
+7. Restart Unbound to apply Configuration - sudo service unbound restart
+
+![Alt text](image-2.png)
+
+8. Disable Forwarding DNS in PiHole by unchecking all the boxes
+
+![Alt text](image-1.png)
+
+9. Set Custom DNS in PiHole - 127.0.0.1#5335
+
+![Alt text](image.png)
+
+
+- After all this steps, you can set up the ip address of the virtual machine by putting it in your router's web platform in the DNS server section in order to have Network Wide Adblocking.
+- You can also add the ip address on individual devices.
