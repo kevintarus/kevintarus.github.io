@@ -65,7 +65,7 @@ A Virtual Machine (Ubuntu Server 22.04)
 
 ![Alt text](/assets/image-1.png)
 
-9. Set Custom DNS in PiHole - 127.0.0.1#5335
+9. Set Custom DNS in PiHole by putting your localhost address - 127.0.0.1#5335
 
 ![Alt text](/assets/image.png)
 
