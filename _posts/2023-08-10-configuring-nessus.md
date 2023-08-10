@@ -22,39 +22,39 @@ Some of its features include:
 - Credentialed Patched Audit
 - Active Directory Scan
 
-![Alt text](image.png)
+![Alt text](/assets/nessus/image.png)
 
 ## Setup
 
 Go to there website and download Nessus Essentials, chose your appropriate OS
 
-![Alt text](<Screenshot from 2023-08-10 13-37-27.png>)
+![Alt text](../assets/nessus/imageos.png)
 
 Once it is downloaded, run the program to install Nessus. In my case, I am on linux so i used dpkg -i command to install the .deb package 
 
-![Alt text](<Screenshot from 2023-08-10 13-36-57.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 13-36-57.png>)
 
 Go to a web browser and copy the weblink shown after installing Nessus
 
-![Alt text](<Screenshot from 2023-08-10 13-38-36.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 13-38-36.png>)
 
 Choose Nessus Essentials
 
-![Alt text](<Screenshot from 2023-08-10 13-39-11.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 13-39-11.png>)
 
 Create user account and password after registering your email
 
-![Alt text](<Screenshot from 2023-08-10 13-41-06.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 13-41-06.png>)
 
-![Alt text](<Screenshot from 2023-08-10 13-41-25.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 13-41-25.png>)
 
 Wait for all the plugins to install. Once installed click on New Scan
 
-![Alt text](<Screenshot from 2023-08-10 15-09-16.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 15-09-16.png>)
 
 Pick on any features you want to run. In my case, I picked Basic Network Scan
 
-![Alt text](<Screenshot from 2023-08-10 15-40-31.png>)
+![Alt text](<../assets/nessus/Screenshot from 2023-08-10 15-40-31.png>)
 
 - In the target section, you can input:
 1. A single ip address => 192.168.100.1
@@ -68,13 +68,13 @@ Pick on any features you want to run. In my case, I picked Basic Network Scan
 - These are some of the results from the scan.
 PS: these are hosts from virtual machines so don't try anything silly :)
 
-![Alt text](image-1.png)
+![Alt text](/assets/nessus/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](/assets/nessus/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](/assets/nessus/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](/assets/nessus/image-4.png)
 
 Nessus is an amazing tool for Security Analysts since:
 - It shows the severity of vulnerabilities by rating them

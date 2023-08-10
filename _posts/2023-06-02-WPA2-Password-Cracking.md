@@ -18,7 +18,7 @@ tags: [WPA2, wifi, mac address, kali linux, airmon-ng]
 - Laptop
 
 ## Hacking Process
-![Hacking Process](/assets/wpa2.png)
+![Hacking Process](/assets/wpa2/wpa2.png)
 
 ```plaintext
 iwconfig                        #check the wireless network configurations, check if usb wireless card is working

@@ -30,26 +30,26 @@ A Virtual Machine (Ubuntu Server 22.04)
 ## Steps I Did
 1. Download and set up Ubuntu Server 22.04 (use bridged adapter)
 
-![Alt text](/assets/image-3.png)
+![Alt text](/assets/pihole/image-3.png)
 
 2. Install Pihole from terminal: sudo curl -sSL https://install.pi-hole.net | bash
 
-![Alt text](/assets/image-4.png)
+![Alt text](/assets/pihole/image-4.png)
 
-![Alt text](/assets/image-5.png)
+![Alt text](/assets/pihole/image-5.png)
 
-![Alt text](/assets/image-6.png)
+![Alt text](/assets/pihole/image-6.png)
 
-![Alt text](/assets/image-7.png)
+![Alt text](/assets/pihole/image-7.png)
 
-![Alt text](/assets/image-8.png)
+![Alt text](/assets/pihole/image-8.png)
 
-![Alt text](/assets/image-9.png)
+![Alt text](/assets/pihole/image-9.png)
 
 3. Set the Web Admin Password - pihole -a -p "input your password here"
    Go to your browser and type: http://192.168.1.1/admin/login.php  (replace it with your ip address for the vm)
 
-![Alt text](/assets/image-10.png)
+![Alt text](/assets/pihole/image-10.png)
 
 4. Install Unbound DNS - sudo apt install unbound
 
@@ -59,15 +59,15 @@ A Virtual Machine (Ubuntu Server 22.04)
 
 7. Restart Unbound to apply Configuration - sudo service unbound restart
 
-![Alt text](/assets/image-2.png)
+![Alt text](/assets/pihole/image-2.png)
 
 8. Disable Forwarding DNS in PiHole by unchecking all the boxes
 
-![Alt text](/assets/image-1.png)
+![Alt text](/assets/pihole/image-1.png)
 
 9. Set Custom DNS in PiHole by putting your localhost address - 127.0.0.1#5335
 
-![Alt text](/assets/image.png)
+![Alt text](/assets/pihole/image.png)
 
 
 - After all this steps, you can set up the ip address of the virtual machine by putting it in your router's web platform in the DNS server section in order to have Network Wide Adblocking.
