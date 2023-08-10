@@ -2,7 +2,7 @@
 title: Password Cracking WPA2-PSK Networks
 author: Tarus
 date: 2023-06-02 16:51:00 +0300
-categories: [Tutorials]
+categories: [Labs]
 tags: [WPA2, wifi, mac address, kali linux, airmon-ng]
 ---
 

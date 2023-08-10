@@ -2,7 +2,7 @@
 title: Setting up your own Recursive DNS Server using Pihole
 author: Tarus
 date: 2023-08-02 19:57:00 +0300
-categories: [Tutorials]
+categories: [Projects]
 tags: [pihole, adblocking, linux, unbound, dns]
 ---
 
