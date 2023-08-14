@@ -55,7 +55,7 @@ A Virtual Machine (Ubuntu Server 22.04)
 
 5. Create Unbound Configuration File - sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
 
-6. Copy the config code from here: https://docs.pi-hole.net/guides/dns/unbound/ and paste it in /etc/unbound/unbound.conf.d/pi-hole.conf 
+6. Copy the config code from [here](https://docs.pi-hole.net/guides/dns/unbound/) and paste it in /etc/unbound/unbound.conf.d/pi-hole.conf 
 
 7. Restart Unbound to apply Configuration - sudo service unbound restart
 
