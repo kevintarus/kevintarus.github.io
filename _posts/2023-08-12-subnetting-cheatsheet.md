@@ -2,7 +2,7 @@
 title: Subnetting Cheatsheet
 author: Tarus
 date: 2021-12-15 21:23:00 +0300
-categories: [Blog, Cheatsheets]
+categories: [Blog, Posts]
 tags: [subnetting, hosts, network, ip address, cidr]
 ---
 
