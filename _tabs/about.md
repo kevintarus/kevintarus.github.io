@@ -25,6 +25,7 @@ toc: True
 - CCNA: Enterprise Networking, Security and Automation
 - Certified in Cybersecurity (CC)
 
+
 [My Credly Profile](https://www.credly.com/users/kevin-tarus)
 
 
