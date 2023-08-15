@@ -23,7 +23,7 @@ toc: True
 - [Microsoft Certified: Azure Fundamentals (AZ-900)](https://www.credly.com/badges/61fad775-0ec3-4863-96d6-60ff6930f76c/public_url)
 - [Cisco Network Security](https://www.credly.com/badges/725aec81-232d-47f5-9740-e93f04c37f10/public_url)
 - CCNA: Enterprise Networking, Security and Automation
-- Certified in Cybersecurity (CC)
+- [Certified in Cybersecurity (CC)](https://drive.google.com/file/d/11WLivUqq6PWd18Uz8gZQSa2ZVqqerXZL/view?usp=sharing)
 
 
 [My Credly Profile](https://www.credly.com/users/kevin-tarus)
