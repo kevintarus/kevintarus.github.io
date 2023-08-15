@@ -20,7 +20,7 @@ toc: True
 
 ## Certifications
 - Currently Studying for => Microsoft Certified: Azure Security Engineer Associate (AZ-500)
-- Microsoft Certified: Azure Fundamentals (AZ-900)
+- [Microsoft Certified: Azure Fundamentals (AZ-900)](https://www.credly.com/badges/61fad775-0ec3-4863-96d6-60ff6930f76c/public_url)
 - CCNA: Enterprise Networking, Security and Automation
 - Certified in Cybersecurity (CC)
 
