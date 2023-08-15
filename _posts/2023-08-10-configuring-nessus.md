@@ -2,7 +2,7 @@
 title: Configuring Nessus to Perform Security Vulnerability Scans on Devices
 author: Tarus
 date: 2023-08-10 15:16:00 +0300
-categories: [Labs]
+categories: [Blog, Labs]
 tags: [nessus, windows, vulnerabilities, network]
 ---
 
