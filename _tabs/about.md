@@ -26,8 +26,6 @@ toc: True
 - [Certified in Cybersecurity (CC)](https://drive.google.com/file/d/11WLivUqq6PWd18Uz8gZQSa2ZVqqerXZL/view?usp=sharing)
 
 
-[My Credly Profile](https://www.credly.com/users/kevin-tarus)
-
 
 
 
