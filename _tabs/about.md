@@ -8,7 +8,7 @@ toc: True
 
 `Hello :)`
 `My name is Kevin Tarus and I am currently an undergraduate student in Strathmore University. I am currently enthusiastic about Cyber Security and Cloud.`
-`My main reason for curating this blog is to document a range of labs, projects and intriguing content that I find very amusing. It can also enhance my understanding of these subjects and also a means for referencing them in the future.`
+`My main reason for curating this blog is to document a range of labs, projects and intriguing content that I find very amusing. It can enhance my understanding of these topics and also as a means of reference in the future.`
 
 
 ## Skills
