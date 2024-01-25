@@ -12,7 +12,7 @@ toc: True
 
 THM |  &nbsp; | &nbsp; | &nbsp; | &nbsp; |  &nbsp;
 :-------------------------:|:-------------------------:
- <script src="https://tryhackme.com/badge/695618"></script>
+<script src="https://tryhackme.com/badge/695618"></script>
 
 
 
